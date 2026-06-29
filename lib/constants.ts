@@ -42,18 +42,18 @@ export const SHOWCASE_BG_VIDEO_SRC =
   "https://ik.imagekit.io/hl8s1iz2c/showcase.mp4";
 
 export const CENTER_NAV_LINKS = [
-  { label: "Home", href: "/" },
-  { label: "Pricing", href: "#pricing" },
-  { label: "Styles", href: "#styles", chevron: true },
-  { label: "How it works", href: "#how-it-works" },
-  { label: "Privacy", href: "/privacy" },
+  { label: "Beranda", href: "/" },
+  { label: "Harga", href: "#pricing" },
+  { label: "Gaya", href: "#styles", chevron: true },
+  { label: "Cara Kerja", href: "#how-it-works" },
+  { label: "Privasi", href: "/privacy" },
   { label: "FAQ", href: "#faq" },
 ] as const;
 
 export const FOOTER_QUICK_LINKS = [
-  { label: "Pricing", href: "#pricing" },
-  { label: "Styles", href: "#styles" },
-  { label: "How it works", href: "#how-it-works" },
+  { label: "Harga", href: "#pricing" },
+  { label: "Gaya", href: "#styles" },
+  { label: "Cara Kerja", href: "#how-it-works" },
   { label: "Studio", href: "/studio" },
 ] as const;
 

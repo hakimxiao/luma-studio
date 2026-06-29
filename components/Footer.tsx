@@ -49,7 +49,7 @@ export function Footer() {
               asChild
               className="rounded-full border-border/70 px-5 py-3"
             >
-              <Link href="#styles">Jelajahi Desain</Link>
+              <Link href="#styles">Jelajahi Gaya</Link>
             </Button>
           </div>
         </div>
@@ -83,7 +83,7 @@ export function Footer() {
 
           <div>
             <p className="text-sm font-semibold text-foreground">
-              Featured styles
+              Gaya Unggulan
             </p>
             <div className="mt-4 flex flex-wrap gap-2">
               {FEATURED_STYLES.map((style) => (
@@ -100,7 +100,7 @@ export function Footer() {
 
         <div className="mt-8 flex flex-col gap-3 border-t border-border/60 pt-6 text-sm text-muted-foreground sm:flex-row sm:items-center sm:justify-between">
           <p>&copy; {year} Luma Studio</p>
-          <p>Private by default. Curated by design.</p>
+          <p>Privat secara default. Dikurasi dengan cermat.</p>
         </div>
       </div>
     </footer>
