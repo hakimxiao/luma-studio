@@ -1,6 +1,7 @@
 import { Footer } from "@/components/Footer";
 import GalleryShowcaseSection from "@/components/GalleryShowcaseSection";
 import { HomeHeroSection } from "@/components/HomeHeroSection";
+import { HowItWorksSection } from "@/components/HowItWorksSection";
 
 export default function Home() {
   return (
@@ -8,6 +9,8 @@ export default function Home() {
       <HomeHeroSection />
 
       <GalleryShowcaseSection />
+
+      <HowItWorksSection />
 
       <Footer />
     </main>
