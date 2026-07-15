@@ -1,7 +1,6 @@
 import { countGenerationsSince, utcMonthStart } from "@/db/generations";
 
 import type { SessionAuthObject } from "@clerk/backend";
-import { use } from "react";
 
 export type GenerationQuotaSnapshot = {
   limit: number;
@@ -40,10 +39,9 @@ export async function getGenerationQuotaSnapshot(
 ) {
   const limit = getMonthlyGenerationLimit(has);
   const used = await countGenerationsSince(clerkUserId, utcMonthStart());
-
   return {
     limit,
-    use,
+    used,
     remaining: Math.max(0, limit - used),
   };
 }
